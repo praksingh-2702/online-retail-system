@@ -62,6 +62,7 @@ CREATE TABLE order_items (
     FOREIGN KEY (product_id) REFERENCES products(product_id) ON DELETE RESTRICT,
     CONSTRAINT chk_qty CHECK (quantity > 0)
 ) ENGINE=InnoDB;
+
 Technology Stack & Operational Control  
 Data Modeling: Structured Query Language (SQL), MySQL Server Workbench  
 
